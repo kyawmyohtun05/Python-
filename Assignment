@@ -1,5 +1,5 @@
-x=int(input("Enter the value of x : "))
-y=int(input("Enter the value of y : "))
+x=int(input("Enter the value of x:"))
+y=int(input("Enter the value of y:"))
 
 print(type(x))
 print(id(x))
@@ -8,24 +8,24 @@ print(hex(x))
 print(hex(y))
 
 add=x+y
-print("Addition of x and y is ",add)
+print("Addition of x and y is",add)
 
 mul=x*y
-print("Multiplication of x and y is ",mul)
+print("Multiplication of x and y is",mul)
 
 if x>y:
     sub=x-y
     div=x/y
-    print("Subtraction of x and y is ",sub)
-    print("Division of x and y is ",div)
+    print("Subtraction of x and y is",sub)
+    print("Division of x and y is",div)
 
 elif x<y:
     sub=y-x
     div=y/x
-    print("Subtraction of y and x is ",sub)
-    print("Division of y and x is ",div)
+    print("Subtraction of y and x is",sub)
+    print("Division of y and x is",div)
 
 else:
     print("Both values are equal.")
-    print("Subtraction result is ",x-y)
-    print("Division result is ",x/y)
+    print("Subtraction result is",x-y)
+    print("Division result is",x/y)
